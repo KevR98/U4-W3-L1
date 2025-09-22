@@ -14,4 +14,8 @@ SELECT nome, cognome FROM clienti WHERE anno_di_nascita = 1982;\
 3.\
 SELECT COUNT(iva) FROM numero_fattura WHERE iva = 20;\
 \
-4.}
+4.\
+SELECT data_attivazione FROM prodotti WHERE EXTRACT(YEAR FROM data_attivazione) = 2017\
+\
+5.\
+}
